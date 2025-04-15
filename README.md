@@ -4,7 +4,7 @@ This repository contains a **Streamlit-based web application** for classifying h
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - **Architecture**: The model uses **ResNet34**, a deep convolutional neural network architecture well-suited for image classification tasks. ResNet34 is pre-trained on ImageNet and fine-tuned on the PCAM dataset.
 - **Training Framework**: Trained using the **Fastai** library on top of **PyTorch**.
@@ -14,7 +14,7 @@ This repository contains a **Streamlit-based web application** for classifying h
   - `1`: Malignant (cancerous tissue)
 - **Accuracy**: Achieved **~97.7% validation accuracy**
 - 
-## 🚀 Features
+## Features
 
 - Upload histopathology images in **JPG**, **JPEG**, **PNG**, or **TIFF** format.
 - Model classifies the image as **Benign (healthy)** or **Malignant (tumor present)**.
